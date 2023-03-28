@@ -1,0 +1,5 @@
+n1 = input('Digite algo: ')
+print('O tipo primitivo desse valor é: ',type(n1))
+n2 = print(f'O que você digitou é alfabético e númerico: {n1.isalnum()}') 
+n3 = print(f'é alfabético:: {n1.isalpha()}')
+n4 = print(f'está todo em maiúsculo: {n1.isupper()}')
