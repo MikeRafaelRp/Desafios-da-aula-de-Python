@@ -1,0 +1,2 @@
+nome = str(input('Digite seu nome completo: ')).strip()
+print('Seu nome completo em maíusculo fica: {}, e em minúsculo fica: {}, ele tem ao todo {} letras'.format(nome.upper(),nome.lower(),len(nome) - nome.count(' ')))
