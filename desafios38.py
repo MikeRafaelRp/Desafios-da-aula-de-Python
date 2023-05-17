@@ -4,7 +4,5 @@ if num1 > num2:
     print('O primeiro valor {} é o maior'.format(num1))
 elif num1 < num2:
     print('O segundo valor {} é o maior'.format(num2))
-elif num1 == num2:
-    print('Não existe maior, o primeiro valor {} e o segundo valor {} são iguais.'.format(num1,num2))
 else:
-    print('Tente novamente!')
+    print('Não existe maior, o primeiro valor {} e o segundo valor {} são iguais.'.format(num1,num2))

@@ -1,5 +1,7 @@
+from datetime import date
+atual = date.today().year
 nasc = int(input('Digite o ano em que você nasceu: '))
-idade = 2023 - nasc
+idade = atual - nasc
 if idade == 18:
     print('É hora de você se alistar.')
 elif idade > 18:
